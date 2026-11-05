@@ -25,6 +25,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawn, execFileSync } from 'node:child_process';
+import crypto from 'node:crypto';
 import { serve, launch, openFilm, parseArgs, ROOT } from './tools/lib.js';
 
 const a = parseArgs(process.argv.slice(2));
@@ -33,6 +34,24 @@ const SEG = path.join(BUILD, 'segments');
 const AUD = path.join(BUILD, 'audio');
 const OUT = path.resolve(ROOT, a.out || 'out/lets-go.mp4');
 for (const d of [BUILD, SEG, AUD, path.dirname(OUT)]) fs.mkdirSync(d, { recursive: true });
+
+// Invalidate cached segments when any source file changed (fingerprint of src/ + script).
+{
+  const h = crypto.createHash('sha1');
+  const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).sort((x, y) => x.name.localeCompare(y.name)).forEach((e) => {
+    const f = path.join(dir, e.name);
+    if (e.isDirectory()) walk(f); else if (/\.(js|json|css|html)$/.test(e.name)) h.update(f).update(fs.readFileSync(f));
+  });
+  walk(path.join(ROOT, 'src'));
+  h.update(fs.readFileSync(path.join(ROOT, 'assets/script.json')));
+  const fp = h.digest('hex'), fpFile = path.join(SEG, 'fingerprint');
+  const old = fs.existsSync(fpFile) ? fs.readFileSync(fpFile, 'utf8') : '';
+  if (old !== fp) {
+    for (const f of fs.readdirSync(SEG)) fs.rmSync(path.join(SEG, f), { force: true });
+    fs.writeFileSync(fpFile, fp);
+    if (old) console.log('Sources changed since the last run → cached segments cleared.');
+  }
+}
 
 function ffmpegOk() { try { execFileSync('ffmpeg', ['-version'], { stdio: 'ignore' }); return true; } catch { return false; } }
 if (!ffmpegOk()) { console.error('ffmpeg not found in PATH — please install ffmpeg.'); process.exit(1); }
@@ -86,8 +105,8 @@ async function buildAudio() {
   const mixFile = path.join(AUD, 'soundtrack.wav');
   console.log('[audio] mixing VO + score + sfx (ducking, loudness, limiter)…');
   execFileSync('ffmpeg', ['-v', 'error', '-y', ...inputs, '-filter_complex', fc.join(';'), '-map', '[mix]', '-t', String(film.duration), '-c:a', 'pcm_s16le', '-ar', '48000', mixFile], { stdio: 'inherit' });
-  const r = (() => { try { return execFileSync('ffmpeg', ['-hide_banner', '-i', mixFile, '-af', 'ebur128=peak=true', '-f', 'null', '-'], { stdio: ['ignore', 'pipe', 'pipe'] }).toString(); } catch (e) { return String(e.stderr); } })();
-  console.log(`[audio] soundtrack: ${/I:\s+(-?[\d.]+) LUFS/.exec(r)?.[1]} LUFS integrated → ${mixFile}`);
+  const r = (() => { try { return execFileSync('ffmpeg', ['-hide_banner', '-i', mixFile, '-af', 'ebur128=peak=true:framelog=quiet', '-f', 'null', '-'], { stdio: ['ignore', 'pipe', 'pipe'] }).toString(); } catch (e) { return String(e.stderr); } })();
+  console.log(`[audio] soundtrack: ${/I:\s+(-?[\d.]+) LUFS/.exec(r.slice(r.lastIndexOf('Summary')))?.[1]} LUFS integrated → ${mixFile}`);
   return mixFile;
 }
 

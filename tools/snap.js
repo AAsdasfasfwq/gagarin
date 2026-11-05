@@ -52,8 +52,8 @@ if (a.audio) {
   execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', path.join(out, `${partId}-music.wav`), '-filter_complex', 'showwavespic=s=1800x240:split_channels=0:colors=#F26B1D', '-frames:v', '1', path.join(out, `${partId}-music-wave.png`)]);
   execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', path.join(out, `${partId}-sfx.wav`), '-filter_complex', 'showwavespic=s=1800x240:split_channels=0:colors=#6FC3E3', '-frames:v', '1', path.join(out, `${partId}-sfx-wave.png`)]);
   for (const stem of ['music', 'sfx', 'mix']) {
-    const r = spawnSync(['-hide_banner', '-i', path.join(out, `${partId}-${stem}.wav`), '-af', 'ebur128=peak=true', '-f', 'null', '-']);
-    const I = /I:\s+(-?[\d.]+) LUFS/.exec(r)?.[1], P = /Peak:\s+(-?[\d.]+) dBFS/.exec(r)?.[1];
+    const r = spawnSync(['-hide_banner', '-i', path.join(out, `${partId}-${stem}.wav`), '-af', 'ebur128=peak=true:framelog=quiet', '-f', 'null', '-']);
+    const I = /I:\s+(-?[\d.]+) LUFS/.exec(r.slice(r.lastIndexOf('Summary')))?.[1], P = /Peak:\s+(-?[\d.]+) dBFS/.exec(r.slice(r.lastIndexOf('Summary')))?.[1];
     console.log(`${stem}: integrated ${I} LUFS, true peak ${P} dBFS`);
   }
   console.log(`audio t0=${meta.t0}s → files in ${out} (mix aligned to film time ${meta.t0})`);
