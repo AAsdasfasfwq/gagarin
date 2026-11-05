@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<script type="importmap">{ "imports": { "three": "../node_modules/three/build/three.module.js", "three/addons/": "../node_modules/three/examples/jsm/" } }</script>
+<style>body{margin:0;background:#111} canvas{display:block}</style></head><body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import { drawCharacter, CAST } from '../src/core/characters.js';
+import { loadFonts, text, F } from '../src/core/type.js';
+import { paperBg } from '../src/core/draw.js';
+await loadFonts();
+const ctx = document.getElementById('c').getContext('2d');
+const q = new URLSearchParams(location.search);
+const mode = q.get('mode') || 'heads';
+paperBg(ctx, '#E9E0CB');
+if (mode === 'heads') {
+  const list = ['gagarin','titov','korolev','nedelin','anna','rita','valentina','engineer'];
+  list.forEach((w, i) => {
+    const x = 160 + (i % 4) * 440, y = 330 + Math.floor(i / 4) * 470;
+    const yaw = [0, 0.45, -0.35, 0.2, -0.5, 0.3, 0.6, -0.15][i];
+    const expr = w === 'gagarin' ? { smile: 1, teeth: 1 } : w === 'anna' ? { eyeOpen: 1.3, open: .6, brow: 1 } : w === 'korolev' ? { smile: 0, frown: .5 } : {};
+    drawCharacter(ctx, w, { x, y, s: 62, yaw, crop: 'bust', expr, outfit: w==='gagarin'?'uniform':undefined });
+    text(ctx, w, x - 120, y + 230, { family: F.MONO, size: 22, color: '#333' });
+  });
+} else if (mode === 'turn') {
+  [-1, -0.6, -0.3, 0, 0.3, 0.6, 1].forEach((yaw, i) => drawCharacter(ctx, q.get('who') || 'gagarin', { x: 150 + i * 270, y: 420, s: 70, yaw, crop: 'head', expr: { smile: i/6, teeth: i > 3 ? 1 : 0 } }));
+  ['neutral','smile','open','worry','pull','squint','blink'].forEach((k, i) => {
+    const e = { neutral: {smile:0}, smile: {smile:1,teeth:1}, open: {open:.8, brow:1, eyeOpen:1.3}, worry: {worry:1, smile:0, frown:.3}, pull: {cheeksPull:1, smile:0}, squint: {squint:1, frown:.6, smile:0}, blink: {blink:1, smile:.6} }[k];
+    drawCharacter(ctx, q.get('who') || 'gagarin', { x: 150 + i * 270, y: 860, s: 70, yaw: 0.25, crop: 'head', expr: e });
+  });
+} else if (mode === 'full') {
+  const list = [['gagarin','spacesuit',{helmet:1}],['gagarin','uniform',{}],['titov','flight',{}],['korolev','coat',{hat:'fedora'}],['nedelin','marshal',{}],['anna','farm',{}],['rita','kid',{}],['engineer','overalls',{}]];
+  list.forEach(([w, o, extra], i) => drawCharacter(ctx, w, { x: 130 + i * 235, y: 1000, s: 50 * (w==='rita'?0.9:1), yaw: [0.3,-0.2,0.4,-0.3,0.2,0.1,-0.2,0.5][i], outfit: o, crop: 'full', armL: {a: .25, b: 0.3, hand: 'open'}, armR: {a: 0.15, b: 1.6, hand: 'fist'}, ...extra, expr: {smile: .5} }));
+}
+window.done = true;
+</script></body></html>

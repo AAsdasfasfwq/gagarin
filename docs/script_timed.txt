@@ -1,0 +1,489 @@
+[   0.00-   5.72] Imagine the world of the early 60s. The Cold War is at the height of its chilling madness.
+[   6.44-  12.46] Two superpowers, the United States and the Soviet Union, have thousands of nuclear warheads pointed
+[  12.46-  18.72] at each other, ready at any second to turn the planet into radioactive ash. The space race,
+[  18.94-  24.64] which we remember today with such romantic wonder, originally had nothing to do with dreams of
+[  24.64-  31.20] reaching the stars. It was an arms race in its purest, most terrifying form. The rockets that
+[  31.20-  36.76] would carry people into orbit were not developed for science. They were built as intercontinental
+[  36.76-  42.58] ballistic missiles. Their only original purpose was to deliver a thermonuclear warhead weighing
+[  42.58-  47.68] several tons to another continent before the enemy could press the button to retaliate.
+[  48.10-  54.26] Sergei Pavlovich Korolev, the chief designer of the Soviet space program, managed to hide humanity's
+[  54.26-  59.66] greatest dream inside a military machine. He persuaded the party leadership that launching
+[  59.66-  64.88] an artificial satellite, and then a human being, was more than a scientific experiment.
+[  65.56-  71.46] It was absolute, indisputable proof of the technological superiority of the socialist system.
+[  71.60-  75.74] But Korolev and his engineers understood exactly what they were dealing with.
+[  75.92-  82.24] The R-7 rocket, which would carry the first cosmonaut at its tip, was essentially a gigantic,
+[  82.24-  88.52] incredibly complicated barrel containing hundreds of tons of explosive fuel and liquid oxygen.
+[  88.74-  92.38] It was temperamental, dangerous, and unpredictable.
+[  92.76-  96.82] To understand the true courage of the people who agreed to ride that rocket,
+[  97.20- 101.18] we need to remember an event that occurred six months before Gagarin's flight.
+[ 101.44- 107.68] An event kept secret for decades, which revealed the truly monstrous face of rocket technology.
+[ 107.68- 115.08] October 1960. The Tioratam test range, which the world would later know as the Baikonur Cosmodrome.
+[ 115.38- 120.16] On the launch pad stands the new R-16 Intercontinental Ballistic Missile.
+[ 120.40- 125.54] This is not Korolev's rocket. It was developed by Mikhail Yangl's design bureau.
+[ 125.80- 129.72] But it belonged to the same industry, staffed by the same people.
+[ 129.98- 136.16] The country's leadership demanded a successful launch at any cost by the anniversary of the October Revolution.
+[ 136.16- 142.16] That political pressure created an atmosphere of frantic, paralyzing haste at the Cosmodrome.
+[ 142.34- 147.22] The R-16 used new, extremely toxic and unstable propellants.
+[ 147.56- 150.66] Unsymmetrical dimethylhydrazine and nitric acid.
+[ 150.84- 154.76] These substances ignited spontaneously on contact with each other.
+[ 155.00- 158.06] On October 23rd, the rocket was fueled.
+[ 158.48- 164.58] During preparations for launch, engineers discovered serious electrical faults and a fuel leak.
+[ 164.58- 170.28] Every safety rule required them to drain the rocket immediately, remove it from the pad,
+[ 170.42- 173.32] and send it to the assembly and testing building for repairs.
+[ 173.66- 176.94] That would take weeks, and the deadline was looming.
+[ 177.46- 182.94] Marshal Mitrofan Nedelin, commander of the Strategic Missile Forces, made a fatal decision.
+[ 183.36- 188.06] He ordered the faults repaired on the launch pad, with the rocket fully fueled.
+[ 188.06- 196.62] To show there was nothing to fear, he had a chair brought out and sat just 56 feet from the base of the 66-foot bomb.
+[ 197.34- 203.14] Dozens of engineers, technicians, and military personnel were working on scaffolding around the rocket.
+[ 203.46- 209.62] On October 24th, at 6.45pm local time, an irreversible error occurred.
+[ 209.62- 216.24] As commands were sent from the control panel, the second-stage engines suddenly fired without a launch command.
+[ 216.56- 223.22] The jet of flame from the second-stage nozzle struck the first-stage fuel tanks directly, burning straight through them.
+[ 223.82- 230.52] Hundreds of tons of toxic, self-igniting fuel instantly became an ocean of fire that engulfed the launch pad.
+[ 230.84- 232.28] It was hell on earth.
+[ 232.28- 237.86] The temperature at the center of the explosion reached 5,400 degrees Fahrenheit.
+[ 238.50- 240.98] Metal melted and flowed like water.
+[ 241.34- 246.52] People on the scaffolding burned in fractions of a second, leaving only shadows on the concrete.
+[ 246.88- 250.54] Those who tried to run fell into pools of boiling acid.
+[ 251.28- 252.94] Marshal Nedelin died instantly.
+[ 253.44- 259.82] All that remained of him was his melted gold star metal as a hero of the Soviet Union and the keys to his safe.
+[ 259.82- 267.22] According to different estimates, between 74 and 126 people burned alive in the disaster.
+[ 268.14- 270.54] They were the elite of Soviet rocket engineering.
+[ 270.88- 273.58] The state immediately classified the tragedy.
+[ 274.16- 277.72] Relatives were told their loved ones had died in a plane crash.
+[ 277.92- 283.22] But it was impossible to hide what had happened from the Cosmodrome staff and the Cosmonaut Corps.
+[ 283.22- 290.82] Yuri Gagarin, German Titov, and the other candidates for the first flight knew exactly what had happened at launch site 41.
+[ 291.24- 294.60] They had seen the soot-blackened remains of the launch pad.
+[ 294.86- 298.20] They understood that a rocket was no safe airplane.
+[ 298.46- 302.60] It was a dragon that could devour you before you even left the ground.
+[ 302.84- 305.72] With that knowledge, they continued training.
+[ 305.72- 314.94] Vostok 1, the spacecraft that would carry the first human into space, was far removed from our modern image of comfortable space shuttles.
+[ 315.18- 320.48] The descent module was a perfect sphere, slightly more than six and a half feet in diameter.
+[ 320.86- 331.80] Its exterior was covered in a thick layer of ablative protection, a special material designed to melt and vaporize during re-entry, carrying away the extraordinary excess heat.
+[ 331.80- 341.82] Inside this cramped capsule, which barely had room for one person in a bulky spacesuit, were an ejection seat, life support equipment, and a control panel.
+[ 342.16- 344.28] But there was one important detail.
+[ 344.56- 348.06] The designers and doctors were terrified of weightlessness.
+[ 348.60- 352.00] No one knew how the human brain would behave without gravity.
+[ 352.00- 363.30] Doctors seriously considered the possibility that the cosmonaut might go insane, fall into a catatonic stupor, or panic and start pressing every button, destroying the spacecraft.
+[ 363.64- 366.06] So the spacecraft was fully automated.
+[ 366.56- 370.42] Its cosmonaut was more of a highly intelligent passenger than a pilot.
+[ 370.90- 374.06] Manual control was blocked by a special code lock.
+[ 374.06- 382.96] To unlock it, he would need to enter a secret three-digit code, 1-2-5, kept in a sealed envelope aboard the spacecraft.
+[ 383.52- 390.64] The assumption was that if he remained rational during an emergency, he could read the code, enter it, and take control.
+[ 390.98- 396.34] Of the 20 elite fighter pilots selected for the first group, two reached the final selection.
+[ 396.82- 399.30] Yuri Gagarin and German Titov.
+[ 399.30- 403.08] Both were superbly prepared physically and technically.
+[ 403.44- 405.30] But Gagarin was chosen.
+[ 405.68- 406.58] Why him?
+[ 406.86- 411.32] It wasn't just his peasant background, which was ideal for Soviet propaganda.
+[ 412.08- 417.62] It was his remarkable, almost disarming psychological stability and complete honesty.
+[ 417.92- 420.22] There was a famous incident during training.
+[ 420.64- 424.10] Engineers added a demanding test in the centrifuge seat.
+[ 424.10- 429.10] After the machine stopped, almost every candidate felt nauseated and dizzy.
+[ 429.36- 430.86] But when the doctors asked,
+[ 431.12- 431.80] How do you feel?
+[ 431.80- 436.22] The pilots, afraid of being dropped from the program, cheerfully reported,
+[ 436.60- 437.84] Great! Ready to fly!
+[ 438.22- 442.46] When Gagarin emerged from the centrifuge, he was white as a sheet.
+[ 442.94- 445.52] Asked the same question, he answered honestly,
+[ 445.84- 447.12] I feel awful.
+[ 447.16- 449.98] I'm nauseated and my head is splitting.
+[ 450.28- 453.32] That was exactly the kind of man Korolev needed.
+[ 454.14- 458.22] Someone who wouldn't play the hero in orbit or lie to please his superiors,
+[ 458.40- 462.88] but would give a clear, honest report of any problem, however unpleasant.
+[ 463.40- 466.70] And, of course, there was his famous smile.
+[ 467.52- 469.62] Korolev understood that within days,
+[ 469.80- 474.20] this man's face would appear on the front pages of newspapers all over the world.
+[ 474.56- 477.08] That face had to radiate light.
+[ 477.08- 479.50] April 11th, 1961.
+[ 480.06- 484.06] On the eve of launch, a tense silence hung over Baikonur.
+[ 484.32- 489.18] That evening, Yuri Gagarin wrote a farewell letter to his wife, Valentina.
+[ 489.48- 493.88] It was the letter of a man assessing his chances with complete clarity.
+[ 493.88- 499.28] If something happens, I ask you all, and especially you, Valyusha,
+[ 499.64- 501.72] not to let grief destroy you.
+[ 502.30- 504.34] Life is life, after all,
+[ 504.52- 507.70] and no one is guaranteed not to be hit by a car tomorrow.
+[ 508.48- 510.28] Please take care of our girls.
+[ 510.70- 512.24] Love them as I do.
+[ 512.24- 515.12] Please raise them to be real people.
+[ 515.60- 518.34] Not pampered girls afraid to get their hands dirty,
+[ 518.54- 520.16] or girls who cling to their mother.
+[ 520.96- 524.52] And if you receive this letter, it means I haven't returned.
+[ 525.14- 528.52] I want you to know that I loved you all very much.
+[ 529.14- 533.00] Valentina Gagarina would receive that letter only seven years later,
+[ 533.28- 536.06] when Yuri really did die during a training flight.
+[ 536.06- 539.88] In April, 1961, she never read it.
+[ 540.30- 542.32] Gagarin and his backup, Titov,
+[ 542.50- 546.68] spent the night before launch in a small, Finnish-style house at the test range.
+[ 547.28- 550.12] Doctors attached dozens of sensors to their bodies
+[ 550.12- 552.68] to record their pulse and breathing as they slept.
+[ 553.48- 555.22] Korolev stayed awake all night.
+[ 555.52- 557.10] He walked around the house,
+[ 557.48- 559.08] took heart medication in drops,
+[ 559.26- 560.72] and smoked endlessly.
+[ 561.14- 564.80] The chief designer was more nervous than the cosmonauts themselves.
+[ 565.44- 568.44] The sensors showed that Gagarin slept peacefully,
+[ 568.96- 570.06] with a perfect pulse.
+[ 570.34- 572.18] On the morning of April 12th,
+[ 572.36- 574.28] they were awakened at 5.30.
+[ 574.60- 576.38] A quick breakfast from tubes.
+[ 576.90- 579.68] Then, they put on their heavy orange spacesuits.
+[ 579.96- 581.72] The suits were made that color,
+[ 581.78- 584.42] so the cosmonaut would be easy to spot from the air
+[ 584.42- 585.66] after landing anywhere,
+[ 585.96- 588.40] whether in snow, taiga, or desert.
+[ 588.64- 590.52] A bus ride to the launch pad.
+[ 590.82- 593.66] That famous moment when Gagarin asked the driver
+[ 593.66- 596.30] to stop in the step so he could urinate on a wheel,
+[ 596.60- 599.40] a tradition Russian cosmonauts still observe today.
+[ 599.76- 603.60] Then, he is standing at the base of the enormous R-7 rocket,
+[ 604.02- 606.22] vapor rising from its liquid oxygen.
+[ 606.58- 609.22] He says goodbye to the people seeing him off,
+[ 609.60- 611.02] takes the elevator to the top,
+[ 611.16- 613.74] and climbs into Vostok's cramped capsule.
+[ 613.98- 615.38] The hatch closes.
+[ 615.78- 617.40] Then comes the first delay.
+[ 617.40- 620.02] The hatch seal sensor doesn't activate.
+[ 620.38- 622.98] Contact number 32 fails to light up.
+[ 623.14- 625.56] That means the capsule could depressurize
+[ 625.56- 626.84] in the vacuum of space,
+[ 627.26- 628.28] killing the cosmonaut.
+[ 628.44- 630.16] In absolute silence,
+[ 630.44- 632.92] broken only by the hiss of the rocket's valves,
+[ 633.52- 635.20] lead designer Oleg Ivanovsky
+[ 635.20- 636.72] and several assembly workers
+[ 636.72- 638.92] frantically unscrew 30 hatch nuts,
+[ 639.36- 640.70] adjust the troublesome contact,
+[ 640.92- 642.20] and tighten the nuts again.
+[ 642.52- 644.70] This time, the light comes on.
+[ 644.70- 646.78] The spacecraft is airtight.
+[ 647.14- 649.16] Only minutes remain before launch.
+[ 649.76- 650.98] Inside the rocket,
+[ 651.50- 653.58] Gagarin puts on music through his headphones
+[ 653.58- 654.54] to pass the time.
+[ 655.00- 656.80] He listens to love songs.
+[ 657.46- 659.78] 9.07 a.m. Moscow time.
+[ 660.02- 661.20] The launch command.
+[ 661.50- 665.20] The 20 engines of the first and second stages roar to life.
+[ 665.70- 667.28] Thousands of tons of flame
+[ 667.28- 669.26] blast into the concrete flame trench.
+[ 669.54- 671.68] The rocket shudders and slowly,
+[ 671.68- 673.26] almost reluctantly,
+[ 673.46- 675.82] begins rising into the spring sky.
+[ 676.16- 678.18] At the microphone in the control bunker,
+[ 678.56- 679.28] Korolev says,
+[ 679.76- 680.24] Ignition.
+[ 680.60- 681.32] Preliminary.
+[ 681.78- 682.22] Main.
+[ 682.80- 683.46] Lift off.
+[ 683.98- 686.38] Gagarin's voice sounds in Korolev's headphones.
+[ 686.96- 687.60] Cheerful.
+[ 687.94- 688.22] Clear.
+[ 688.72- 690.46] Without the slightest hint of panic.
+[ 690.90- 692.66] A phrase that would become the symbol
+[ 692.66- 693.92] of an entire era.
+[ 694.22- 695.10] Let's go!
+[ 695.32- 697.48] The rocket rapidly gains speed.
+[ 697.84- 699.08] Inside the capsule,
+[ 699.08- 701.90] tremendous vibration and g-forces build.
+[ 702.18- 705.02] This is nothing like taking off in a passenger plane.
+[ 705.32- 708.88] The cosmonaut is pressed into his molded seat so hard
+[ 708.88- 711.26] that breathing becomes incredibly difficult.
+[ 711.54- 713.80] His cheeks pull toward his ears
+[ 713.80- 715.72] and blood drains from his head.
+[ 716.02- 718.66] The acceleration reaches several g's.
+[ 719.28- 721.50] Gagarin methodically reports on his condition
+[ 721.50- 723.12] and the spacecraft's systems.
+[ 723.60- 726.02] His voice sounds strained, but steady.
+[ 726.54- 728.04] Vibration is increasing.
+[ 728.04- 729.96] G-forces are rising.
+[ 730.26- 731.44] Feeling excellent.
+[ 731.78- 733.98] The first stage side boosters separate.
+[ 734.34- 736.06] Then, the nose fairing,
+[ 736.18- 738.50] which protected the capsule in the dense atmosphere,
+[ 738.76- 739.60] is jettisoned.
+[ 739.90- 740.82] At that moment,
+[ 741.30- 743.54] bright, almost unbearable sunlight
+[ 743.54- 745.24] pours through Vostok's window.
+[ 745.50- 747.80] The central core completes its burn.
+[ 748.04- 749.94] The third stage ignites.
+[ 750.20- 753.26] The rocket passes through the last layers of the atmosphere
+[ 753.26- 755.36] and enters absolute emptiness.
+[ 755.72- 758.10] The third stage engine falls silent.
+[ 758.38- 761.88] A moment no human has ever experienced arrives.
+[ 762.26- 766.00] The roar gives way to a ringing, absolute silence.
+[ 766.32- 768.08] The g-forces disappear,
+[ 768.30- 771.14] and Gagarin's body gently rises from the seat,
+[ 771.32- 772.84] suspended by his straps.
+[ 773.14- 774.32] He is in orbit.
+[ 774.64- 775.92] He is weightless.
+[ 775.92- 778.08] Contrary to the doctor's fears,
+[ 778.66- 780.14] Gagarin doesn't go insane.
+[ 780.48- 782.84] His mind remains clear and sharp.
+[ 783.46- 785.88] Weightlessness turns out to be surprisingly pleasant
+[ 785.88- 786.90] rather than frightening.
+[ 787.36- 789.04] He lets go of his writing pad,
+[ 789.18- 791.24] and it floats gently through the cabin.
+[ 791.24- 793.84] Yuri Gagarin becomes the first human
+[ 793.84- 795.84] to see our planet from outside it.
+[ 796.02- 797.18] Through the window,
+[ 797.42- 799.64] he observes a breathtaking sight.
+[ 799.84- 801.80] He sees Earth's curvature.
+[ 802.08- 805.88] He sees the deep, incredibly pure black of space,
+[ 806.14- 809.42] sharply contrasting with the atmosphere's bright blue halo.
+[ 809.78- 811.58] What a beautiful sight!
+[ 812.18- 813.48] He radios back to Earth.
+[ 813.66- 815.98] He flies over oceans, clouds,
+[ 816.24- 817.54] and a sleeping America.
+[ 817.94- 820.84] His flight lasts just one orbit around Earth.
+[ 821.24- 822.64] 108 minutes.
+[ 822.98- 825.64] But those minutes contain an eternity.
+[ 826.18- 828.48] He drinks water from a special tube,
+[ 828.88- 829.80] tries space food,
+[ 829.96- 831.42] and writes in the flight log
+[ 831.42- 834.28] until his pencil floats away in zero gravity
+[ 834.28- 836.76] and disappears behind the instrument panel.
+[ 837.10- 839.28] But spaceflight is a balancing act
+[ 839.28- 840.90] on the edge of disaster.
+[ 841.30- 844.10] A serious malfunction had already occurred
+[ 844.10- 845.44] during orbital insertion.
+[ 845.66- 847.82] The third stage's automatic system
+[ 847.82- 849.42] had not performed accurately.
+[ 849.42- 852.00] The engine shut down later than planned.
+[ 852.36- 853.30] As a result,
+[ 853.74- 856.08] Vostok 1 entered an orbit with an apogee,
+[ 856.10- 857.26] its highest point,
+[ 857.64- 860.38] 62 miles above the intended altitude.
+[ 860.70- 862.54] This was a critical problem.
+[ 862.94- 865.14] The flight plan allowed for the possibility
+[ 865.14- 867.56] that the spacecraft's retro rocket system,
+[ 867.80- 868.72] the TDU,
+[ 868.98- 869.70] might fail.
+[ 870.16- 871.04] In that case,
+[ 871.44- 873.42] natural drag against the upper atmosphere
+[ 873.42- 874.74] would slow the spacecraft
+[ 874.74- 877.74] and bring it out of orbit within five to seven days.
+[ 878.04- 879.84] That was exactly how long
+[ 879.84- 882.34] the oxygen and food supplies aboard would last.
+[ 882.58- 884.38] But with the orbit too high,
+[ 884.78- 887.34] natural deceleration would take about 20 days.
+[ 887.70- 889.42] If the retro rocket failed,
+[ 889.96- 891.10] Gagarin would be condemned
+[ 891.10- 892.52] to an agonizing death
+[ 892.52- 894.82] by suffocation in his orbital tomb.
+[ 894.82- 897.20] At 10.25 a.m.,
+[ 897.20- 899.60] the spacecraft was scheduled to begin its descent.
+[ 899.92- 901.88] The automatic system activated.
+[ 902.20- 904.32] The retro rocket delivered its thrust.
+[ 904.66- 905.78] The engine fired,
+[ 906.02- 909.16] but a valve malfunction shut it down one second early.
+[ 909.38- 912.02] That meant the spacecraft had not slowed
+[ 912.02- 913.16] to the required speed,
+[ 913.16- 915.38] but the worst was still ahead.
+[ 915.70- 917.32] After the retro rocket burn,
+[ 917.64- 920.72] the spacecraft was supposed to separate into two parts.
+[ 921.54- 922.40] The descent module,
+[ 922.44- 924.10] the sphere containing Gagarin,
+[ 924.54- 927.10] should detach from the instrument and service module,
+[ 927.28- 928.32] the equipment cylinder.
+[ 929.10- 931.66] Only the protected sphere should enter the atmosphere.
+[ 932.20- 934.56] The instrument module had no heat shield
+[ 934.56- 936.02] and was meant to burn up.
+[ 936.24- 939.02] The automatic system issued the separation command.
+[ 939.38- 941.42] The explosive charges fired,
+[ 941.92- 943.74] but the separation was incomplete.
+[ 944.12- 946.36] A thick bundle of electrical cables
+[ 946.36- 948.72] connecting the two sections failed to release.
+[ 948.72- 951.96] The spacecraft began entering the dense atmosphere
+[ 951.96- 954.00] as one unbalanced assembly.
+[ 954.32- 955.98] The descent module dragged
+[ 955.98- 957.96] the heavy instrument module behind it.
+[ 958.16- 960.00] Its aerodynamics were disrupted.
+[ 960.34- 962.76] The spacecraft began spinning wildly.
+[ 963.40- 966.14] Gagarin was inside that furious carousel.
+[ 966.46- 969.58] The spacecraft tumbled at 30 degrees per second.
+[ 969.88- 972.12] A glow began building outside the window.
+[ 972.42- 974.80] The spacecraft was falling through the atmosphere
+[ 974.80- 978.00] at 17,400 miles per hour.
+[ 978.24- 980.64] Air friction produced searing plasma.
+[ 981.00- 984.28] The temperature outside reached several thousand degrees.
+[ 984.78- 987.02] The descent module's ablative protection
+[ 987.02- 989.56] began melting and flowing across the windows.
+[ 989.86- 991.76] The cabin smelled of burning.
+[ 992.46- 994.66] Gagarin could see streams of liquid metal
+[ 994.66- 996.50] running over the spacecraft's skin.
+[ 996.76- 998.88] A myth later emerged that he shouted,
+[ 999.08-1000.12] I'm burning up!
+[1000.36-1001.40] Goodbye, comrades!
+[1001.80-1004.30] In reality, there was no panic.
+[1004.80-1006.48] He could indeed see flames
+[1006.48-1008.74] and did not know whether the capsule would melt,
+[1008.96-1010.72] but he remained ice-calm,
+[1011.06-1013.96] recording G-forces that had reached 10 Gs.
+[1014.24-1017.14] His body was crushed into the seat so hard
+[1017.14-1018.56] that his vision dimmed
+[1018.56-1020.74] and his chest could barely draw in air.
+[1021.16-1021.76] Fortunately,
+[1022.24-1024.38] when the temperature reached a critical level,
+[1024.62-1026.84] the hot plasma simply burned through
+[1026.84-1029.34] the ill-fated cable holding the modules together.
+[1029.34-1032.60] The instrument module broke away and burned up.
+[1032.84-1034.90] The descent module righted itself,
+[1035.32-1037.52] stabilized by its offset center of gravity,
+[1037.70-1039.30] and hurtled toward the ground.
+[1039.54-1042.08] At an altitude of 23,000 feet,
+[1042.44-1044.88] the automatic system blew off the hatch cover.
+[1045.14-1047.00] The ejection system activated.
+[1047.30-1049.60] The descent module's soft landing system
+[1049.60-1051.20] had not yet been perfected.
+[1051.48-1054.40] If Gagarin had landed inside the steel sphere,
+[1054.40-1056.62] the impact would have been too violent,
+[1056.86-1058.66] and he could have been seriously injured.
+[1058.94-1060.90] The plan, therefore, required him
+[1060.90-1062.22] to eject from the capsule
+[1062.22-1064.44] and descend under his own parachute.
+[1064.72-1065.60] For years,
+[1066.06-1068.16] the Soviet Union concealed this fact,
+[1068.62-1071.22] claiming Gagarin had landed inside the spacecraft.
+[1071.64-1073.02] It did so to have
+[1073.02-1075.34] the Fédération Aéronautique Internationale,
+[1075.44-1076.40] the FAI,
+[1076.76-1078.94] officially register the spaceflight record.
+[1079.24-1080.32] Under its rules,
+[1080.32-1082.88] the pilot had to land in his craft.
+[1083.08-1085.18] The truth was officially acknowledged
+[1085.18-1086.56] only decades later.
+[1087.06-1089.62] Gagarin was thrown clear of the capsule in his seat,
+[1089.80-1091.22] then separated from it
+[1091.22-1092.78] and opened his main parachute.
+[1093.06-1095.38] The final malfunction occurred here.
+[1095.62-1097.40] His reserve parachute released
+[1097.40-1098.72] and opened on its own.
+[1099.10-1101.46] Gagarin descended under two canopies,
+[1101.80-1103.04] risking their becoming tangled.
+[1103.54-1104.06] Fortunately,
+[1104.50-1105.40] they didn't collide.
+[1105.62-1107.26] There was also a problem
+[1107.26-1108.92] with the valve in his spacesuit
+[1108.92-1111.38] that was supposed to admit outside air for breathing.
+[1111.78-1113.98] It was caught beneath folds of clothing.
+[1114.42-1115.70] For several minutes,
+[1115.92-1117.34] Gagarin couldn't find it
+[1117.34-1119.44] and was suffocating in the sealed suit
+[1119.44-1121.70] until he finally managed to open it.
+[1121.86-1123.72] He landed in the Saratov region,
+[1123.90-1125.12] in a plowed field
+[1125.12-1126.74] near the village of Smilovka.
+[1127.00-1128.98] The first people to meet him on Earth
+[1128.98-1130.04] were not generals,
+[1130.38-1130.88] doctors,
+[1131.20-1131.92] or journalists.
+[1132.26-1134.10] They were a local farmwoman,
+[1134.42-1135.40] Anna Taktarova,
+[1135.40-1136.92] and her young granddaughter
+[1136.92-1138.88] with whom she was planting potatoes.
+[1139.38-1140.70] Imagine their shock.
+[1140.96-1142.90] A man descends from the sky
+[1142.90-1144.80] wearing a bright orange spacesuit
+[1144.80-1145.66] and a white helmet.
+[1146.00-1147.92] The woman backs away in terror,
+[1148.24-1150.22] thinking she is looking at an American spy
+[1150.22-1151.12] or an alien.
+[1151.64-1153.74] Struggling to walk in his heavy suit,
+[1154.26-1155.26] Gagarin calls out,
+[1155.44-1157.14] I'm one of you, comrades!
+[1157.42-1158.18] One of you!
+[1158.44-1159.94] I'm a Soviet citizen!
+[1160.22-1161.64] I've come from space!
+[1161.64-1164.08] What happened over the next few days
+[1164.08-1166.42] changed the course of history forever.
+[1167.52-1168.44] When Leviton announced
+[1168.44-1169.96] the first human spaceflight
+[1169.96-1170.86] on state radio,
+[1171.44-1173.22] people across the Soviet Union
+[1173.22-1174.42] and around the world
+[1174.42-1176.74] spontaneously poured into the streets.
+[1177.04-1178.48] It was a celebration
+[1178.48-1180.10] comparable to Victory Day.
+[1180.64-1182.76] Strangers embraced and cried,
+[1183.24-1184.56] carrying homemade signs.
+[1184.86-1186.44] Against the constant fear
+[1186.44-1187.54] of nuclear war,
+[1187.92-1188.76] Cuban crises,
+[1189.06-1190.08] and spy scandals,
+[1190.08-1191.50] Gagarin's flight
+[1191.50-1192.16] was a glimpse
+[1192.16-1194.24] of pure, absolute light.
+[1195.08-1195.82] It was more than
+[1195.82-1196.90] one country's victory.
+[1197.14-1198.22] It was a victory
+[1198.22-1199.52] for all humanity
+[1199.52-1201.10] over the laws of gravity.
+[1201.52-1202.14] Overnight,
+[1202.70-1203.40] Yuri Gagarin
+[1203.40-1204.46] went from an unknown
+[1204.46-1205.32] senior lieutenant
+[1205.32-1207.24] to the most famous person
+[1207.24-1208.02] on the planet.
+[1208.70-1210.52] Crowds numbering in the millions
+[1210.52-1211.68] greeted him in Moscow.
+[1212.02-1213.96] He embarked on a world tour,
+[1214.32-1215.80] visiting more than 30 countries.
+[1216.16-1218.02] He dined with the Queen of Britain,
+[1218.02-1219.18] who broke etiquette
+[1219.18-1220.46] by asking to be photographed
+[1220.46-1221.52] with him because
+[1221.52-1223.28] he isn't a man of earth,
+[1223.50-1224.46] but of the heavens.
+[1224.90-1226.72] But this extraordinary fame
+[1226.72-1228.20] became a crushing burden.
+[1229.08-1230.74] Gagarin was, above all,
+[1230.94-1231.92] a fighter pilot.
+[1232.20-1233.88] He longed for the sky
+[1233.88-1235.90] and wanted to fly into space again.
+[1236.04-1237.90] But the state could not risk
+[1237.90-1239.36] its foremost living symbol.
+[1239.62-1240.64] It guarded him
+[1240.64-1242.34] like its most precious possession.
+[1242.56-1243.54] He was banned
+[1243.54-1245.12] from flying combat aircraft
+[1245.12-1247.14] and surrounded by a tight circle
+[1247.14-1248.24] of security personnel
+[1248.24-1249.34] and party officials.
+[1249.60-1251.68] He became a living monument,
+[1251.94-1253.36] a diplomatic weapon.
+[1253.60-1254.64] It took years
+[1254.64-1255.88] of desperate struggle
+[1255.88-1256.62] with the leadership
+[1256.62-1257.60] to win permission
+[1257.60-1258.48] to fly again.
+[1258.76-1259.94] He got his way,
+[1260.18-1261.00] but the sky
+[1261.00-1262.54] that had once made him immortal
+[1262.54-1263.96] ultimately took him.
+[1264.22-1266.04] In March 1968,
+[1266.74-1267.84] Yuri Gagarin died
+[1267.84-1268.94] during a training flight
+[1268.94-1270.60] in a MiG-15 UTI.
+[1271.00-1272.62] He was only 34.
+[1273.30-1274.10] Gagarin's flight
+[1274.10-1276.44] lasted just 108 minutes.
+[1276.78-1277.98] But those minutes
+[1277.98-1279.26] became a dividing line
+[1279.26-1280.22] between the past
+[1280.22-1281.04] and the future.
+[1281.40-1283.32] They proved that humanity
+[1283.32-1284.60] could leave its cradle.
+[1284.90-1286.74] And despite all the brutality
+[1286.74-1287.72] of the Cold War,
+[1288.02-1289.04] the deadly risks,
+[1289.40-1290.34] the burning rockets,
+[1290.54-1291.64] and the secret bunkers,
+[1291.82-1292.92] what humanity
+[1292.92-1294.02] will remember forever
+[1294.02-1295.30] is not a weapon,
+[1295.48-1297.30] but an ordinary young man
+[1297.30-1298.58] with an extraordinarily
+[1298.58-1299.64] bright smile
+[1299.64-1301.34] who looked into the abyss
+[1301.34-1302.46] and simply said,
+[1302.70-1303.58] let's go.

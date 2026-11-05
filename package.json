@@ -1,0 +1,18 @@
+{
+  "name": "gagarin-108",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LET'S GO — a motion-design documentary about Yuri Gagarin's flight. Deterministic HTML/Canvas/WebGL film rendered frame-by-frame with Puppeteer.",
+  "type": "module",
+  "scripts": {
+    "preview": "node tools/serve.js",
+    "render": "node render.js",
+    "snap": "node tools/snap.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0",
+    "three": "0.170.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}

@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,"></head><body>
+<script type="module">
+import { createKit, encodeWav, chord } from '../src/core/audio.js';
+const sr = 48000, dur = 40;
+const ctx = new OfflineAudioContext({ numberOfChannels: 4, length: sr * dur, sampleRate: sr });
+ctx.destination.channelInterpretation = 'discrete'; ctx.destination.channelCount = 4;
+const A = createKit(ctx, { t0: 100 });
+let t = 100;
+// tour of instruments
+A.chordOn('pad', t, chord('D','min9',3), 4, { vel: .5 }); t += 4;
+A.chordOn('strings', t, chord('D','min',3), 3, { vel: .5 }); t += 3;
+['D4','F4','A4','D5'].forEach((n,i)=>A.piano(t+i*0.4, n, 1.5, {vel:.6})); t += 2.5;
+['A5','D6','F6'].forEach((n,i)=>A.celesta(t+i*0.3, n, 2)); t += 1.5;
+A.bell(t, 'D4', 4, {vel:.5}); t += 2;
+A.motif(t, { inst: 'horn', bpm: 90, vel: .5 }); t += 7;
+for (let i=0;i<8;i++) A.pizz(t+i*0.25, ['D3','F3','A3','C4'][i%4]); t += 2.2;
+A.balalaika(t, 'A4', 1); A.balalaika(t+1, 'F4', 1); t += 2.2;
+A.choir(t, 'D4', 3, { vel: .5 }); A.choir(t, 'A4', 3, { vel: .4 }); t += 3.5;
+A.pattern((tt, v) => A.kick(tt, { vel: v }), t, 1, 'x...x...x...x...', { bpm: 120 });
+A.pattern((tt, v) => A.snare(tt, { vel: v, military: true }), t, 1, '....x.......x.xx', { bpm: 120 }); t += 2.2;
+A.riser(t, 2); A.impact(t + 2); t += 3.5;
+A.whoosh(t); A.typewriter(t + 0.8, 10); A.explosion(t + 2.5, { vel: .7, dur: 4 });
+const buf = await ctx.startRendering();
+const L = (i) => buf.getChannelData(i);
+const peak = (d) => d.reduce((m, v) => Math.max(m, Math.abs(v)), 0);
+window.result = { peaks: [0,1,2,3].map(i => peak(L(i)).toFixed(3)) };
+const mus = encodeWav([L(0), L(1)], sr), fx = encodeWav([L(2), L(3)], sr);
+const b64 = (bytes) => { let s=''; for (let i=0;i<bytes.length;i+=0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i,i+0x8000)); return btoa(s); };
+window.music = b64(mus); window.fx = b64(fx); window.done = true;
+</script></body></html>
